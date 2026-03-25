@@ -14,21 +14,14 @@
         }
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
         body { background: var(--bg); color: var(--text); line-height: 1.6; overflow-x: hidden; }
-        
         header { padding: 20px 6%; display: flex; justify-content: space-between; align-items: center; background: rgba(5,10,20,0.9); backdrop-filter: blur(10px); position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid rgba(255,255,255,0.1); }
         .logo { font-weight: 900; font-size: 24px; text-decoration: none; color: #fff; }
         .logo span { color: var(--accent); }
-        
         .hero { padding: 100px 6%; display: flex; align-items: center; gap: 50px; min-height: 80vh; }
         .hero-content { flex: 1; }
         .hero-content h1 { font-size: 56px; font-weight: 900; line-height: 1.1; margin-bottom: 25px; }
         .hero-content mark { background: none; color: var(--accent); }
-        
         .btn { padding: 18px 35px; border-radius: 12px; font-weight: 700; text-decoration: none; display: inline-block; cursor: pointer; border: none; transition: 0.4s; background: var(--grad); color: #fff; }
-        
-        .partners { padding: 60px 6%; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; }
-        .p-card { border: 1px solid rgba(255,255,255,0.1); padding: 20px; text-align: center; border-radius: 12px; font-weight: 700; opacity: 0.6; transition: 0.3s; }
-        .p-card:hover { opacity: 1; border-color: var(--accent); background: rgba(30,107,214,0.1); }
     </style>
 </head>
 <body>
@@ -36,21 +29,12 @@
         <a href="#" class="logo">ИТ <span>МАКС</span></a>
         <a href="tel:+79991375519" style="color:#fff; text-decoration:none; font-weight:700;">+7 (999) 137-55-19</a>
     </header>
-
     <section class="hero">
         <div class="hero-content">
             <h1>ИТ-Интегратор <br><mark>нового поколения</mark></h1>
-            <p style="font-size:20px; color:#a0aec0; margin-bottom:40px;">Нижний Новгород: комплексное обслуживание, системы безопасности и поставки ИТ-оборудования.</p>
-            <a href="https://t.me" class="btn">Заказать аудит</a>
+            <p style="font-size:20px; color:#a0aec0; margin-bottom:40px;">Нижний Новгород: комплексное обслуживание и поставки ИТ-оборудования.</p>
+            <a href="#" class="btn">Связаться с нами</a>
         </div>
-    </section>
-
-    <section class="partners">
-        <div class="p-card">OCS</div>
-        <div class="p-card">MERLION</div>
-        <div class="p-card">DSSL</div>
-        <div class="p-card">HIKVISION</div>
-        <div class="p-card">KASPERSKY</div>
     </section>
 </body>
 </html>
